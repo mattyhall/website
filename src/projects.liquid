@@ -1,0 +1,42 @@
+extends: default.liquid
+---
+<div class="content">
+    <div class="project">
+        <h1>Timmy</h1>
+        <p class="project-date">July 2017</p>
+        <img src="/static/pics/projects/timmy.png" width="100%">
+        <p>
+            Timmy is a timesheets application I wrote to allow me to track how long I was spending on projects.
+            It was important that I could access it any where as I worked on multiple different devices in
+            different locations, so I decided to write it as a web app. I had some previous experience with React
+            but choose Ember for this project, with a REST backend written in Rust using Rocket (the web
+            framework) and Diesel (the ORM).
+        </p>
+
+        <p>
+            Its features include:
+            <ul>
+                <li>Creating projects</li>
+                <li>Timing "activities" using a stopwatch</li>
+                <li>Adding previous activities using human dates (eg. two hours ago)</li>
+                <li>
+                    Visualising the information, such as hours spent on each day of the week or each hour
+                    of the day, most common tags and a gantt chart (done using Chart.js)
+                </li>
+                <li>User authentication</li>
+            </ul>
+        </p>
+
+        <p>
+            <b>Technologies used:</b>
+            <a href="https://www.emberjs.com">Ember</a>,
+            <a href="https://www.rust-lang.org">Rust</a>,
+            <a href="https://rocket.rs">Rocket</a>,
+            <a href="https://diesel.rs">Diesel</a>,
+            <a href="http://www.chartjs.org">Chart.js</a>,
+            Javascript,
+            CSS,
+            Flexbox
+        </p>
+    </div>
+</div>

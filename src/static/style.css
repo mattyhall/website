@@ -1,6 +1,8 @@
 body {
     font-family: 'Lato', sans-serif;
     color: #3b3b3b;
+    display: flex;
+    justify-content: space-around;
 }
 
 h1 {
@@ -8,48 +10,41 @@ h1 {
 }
 
 .container {
-    display: flex;
-    justify-content: space-around;
-}
-
-.profile {
-    flex: 0 1 600px;
-}
-
-.profile-title {
     margin-top: 1em;
+    flex: 0 1 800px;
+    display: flex;
+    flex-direction: column;
 }
 
-
-.profile-title img {
+.navbar img {
     float: left;
 }
 
-.profile-title-text {
+.navbar-text {
     display: inline;
     margin-left: 2em;
     float: left;
     margin-top: 30px;
 }
 
-.profile-nav {
+.nav {
     list-style: none;
     display: inline;
     margin: 0;
     padding: 0;
 }
 
-.profile-nav li {
+.nav li {
     display: inline-block;
     margin-right: 1em;
 }
 
-.profile-nav a {
+.nav a {
     color: #444;
     text-decoration: none;
 }
 
-.profile .rule {
+.rule {
     clear: both;
     padding-top: 1em;
     border-bottom: 1px solid #999;
@@ -69,7 +64,6 @@ a {
 a:hover {
     text-decoration: underline;
 }
-
 .links {
     margin-top: 1.5em;
 }
@@ -80,4 +74,13 @@ a:hover {
 
 .links a {
     margin-right: 1em;
+}
+
+.content {
+    flex: 1 1;
+    padding-top: 0.7em;
+}
+
+.navbar {
+    flex: 0 0;
 }
