@@ -1,0 +1,6 @@
+name: Matthew Hall's site
+source: src
+dest: "build"
+ignore:
+  - .git/*
+  - build/*

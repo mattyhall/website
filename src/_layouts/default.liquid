@@ -1,0 +1,21 @@
+<html>
+    <head>
+        {% if is_post %}
+          <title>{{ title }}</title>
+        {% else %}
+       	  <title>Cobalt.rs Blog</title>
+        {% endif %}
+        <link rel="stylesheet" href="static/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <script src="https://use.fontawesome.com/b81c905ed1.js"></script>
+    </head>
+    <body>
+        <div class="container">
+          {% if is_post %}
+            {% include '_layouts/post.liquid' %}
+          {% else %}
+            {{ content }}
+          {% endif %}
+        </div>
+    </body>
+</html>
