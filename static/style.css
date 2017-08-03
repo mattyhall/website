@@ -63,13 +63,21 @@ h1 {
 
 a {
     color: #597ecf;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .links {
     margin-top: 1.5em;
 }
 
+.links i {
+    color: #597ecf;
+}
+
 .links a {
-    text-decoration: none;
     margin-right: 1em;
 }
