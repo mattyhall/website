@@ -3,6 +3,8 @@ body {
     color: #3b3b3b;
     display: flex;
     justify-content: space-around;
+    font-size: 18px;
+    line-height: 24px;
 }
 
 h1 {
