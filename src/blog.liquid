@@ -1,0 +1,10 @@
+extends: default.liquid
+---
+<div class="content">
+        {% for post in posts %}
+            <h1 class="post-title"><a href="{{post.path}}">{{post.title}}</a></h1>
+            <p class="date">{{post.date}}</p>
+            <p>{{post.description}}</p>
+            <div class="rule"></div>
+        {% endfor %}
+</div>
