@@ -1,5 +1,5 @@
 title: Merging multiple migrations into one statement
-date:  2014-07-22
+date: 22 Jul 2014 12:00:00 +0100
 tags: haskell, programming
 description: Merge multiple migrations into one statement using the Lens library in Haskell
 extends: default.liquid

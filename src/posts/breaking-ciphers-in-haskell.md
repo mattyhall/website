@@ -1,5 +1,5 @@
 title: Breaking ciphers in haskell
-date:  2013-03-16
+date: 16 Mar 2013 12:00:00 +0100
 tags: haskell, programming
 description: Breaking a simple cipher by looking at the patterns of words
 extends: default.liquid

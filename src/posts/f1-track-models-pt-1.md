@@ -1,5 +1,5 @@
 title: Creating models of F1 tracks in Rust - Part 1
-date:  2014-08-19
+date: 19 Aug 2014 12:00:00 +0100
 tags: rust, programming, formula1
 description: We start off by loading an open street map xml file into Rust
 extends: default.liquid
