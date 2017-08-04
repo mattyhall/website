@@ -7,7 +7,8 @@ script:
 - cobalt build
 deploy:
   provider: pages
-  repo: mattyhall.github.io
+  repo: mattyhall/mattyhall.github.io
+  target_branch: master
   local_dir: build
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
