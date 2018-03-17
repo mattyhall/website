@@ -1,0 +1,10 @@
+layout: default.liquid
+---
+<div class="content">
+        {% for post in collections.posts.pages %}
+            <h1 class="post-title"><a href="{{post.permalink}}">{{post.title}}</a></h1>
+            <p class="date">{{post.published_date}}</p>
+            <p>{{post.description}}</p>
+            <div class="rule"></div>
+        {% endfor %}
+</div>

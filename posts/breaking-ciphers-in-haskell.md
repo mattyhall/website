@@ -1,8 +1,7 @@
 title: Breaking ciphers in haskell
-date: 16 Mar 2013 12:00:00 +0100
-tags: haskell, programming
+published_date: 2013-05-16 12:00:00 +0100
 description: Breaking a simple cipher by looking at the patterns of words
-extends: default.liquid
+layout: default.liquid
 ---
 
 Today I would like to share with you one of the first pieces of Haskell code I wrote that was more than ten lines long. It is a program to break a cipher.

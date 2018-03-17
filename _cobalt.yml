@@ -1,0 +1,4 @@
+destination: "build"
+ignore:
+  - .git/*
+  - build/*

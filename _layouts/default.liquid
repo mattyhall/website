@@ -1,8 +1,8 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        {% if is_post %}
-          <title>{{ title }}</title>
+        {% if page.collection == "posts" %}
+          <title>{{ page.title }}</title>
         {% else %}
        	  <title>Matthew Hall</title>
         {% endif %}
@@ -13,10 +13,10 @@
     <body>
         <div class="container">
           {% include '_layouts/navbar.liquid' %}
-          {% if is_post %}
+          {% if page.collection == "posts" %}
             {% include '_layouts/post.liquid' %}
           {% else %}
-            {{ content }}
+            {{ page.content }}
           {% endif %}
         </div>
     </body>

@@ -1,9 +1,9 @@
 title: Merging multiple migrations into one statement
-date: 22 Jul 2014 12:00:00 +0100
-tags: haskell, programming
+published_date: 2014-07-22 12:00:00 +0100
 description: Merge multiple migrations into one statement using the Lens library in Haskell
-extends: default.liquid
+layout: default.liquid
 ---
+
 
 Yep, I'm back with more boringly named blog posts! In this post we'll take a ``CREATE TABLE`` statement and a list of ``ALTER TABLE`` statements and turn them into a single ``CREATE TABLE`` statement. We'll do so with a helping hand from Haskell, Attoparsec and Lens but first an explanation of migrations. Feel free to skip.
 
