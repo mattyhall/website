@@ -12,9 +12,9 @@
     </head>
     <body>
         <div class="container">
-          {% include '_layouts/navbar.liquid' %}
+          {% include 'navbar.liquid' %}
           {% if page.collection == "posts" %}
-            {% include '_layouts/post.liquid' %}
+            {% include 'post.liquid' %}
           {% else %}
             {{ page.content }}
           {% endif %}
