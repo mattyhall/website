@@ -14,7 +14,7 @@ h1 {
 
 .container {
     margin-top: 1em;
-    flex: 0 1 800px;
+    flex: 0 1 1000px;
     display: flex;
     flex-direction: column;
 }
@@ -91,7 +91,6 @@ a:hover {
 pre {
     overflow-x: auto;
     min-width: 0;
-    max-width: 780px;
     padding: 0.5em 0.5em 0.5em 0.5em;
 }
 
