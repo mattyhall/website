@@ -109,3 +109,11 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite
 dl, dt, dd, ol, ul, li, fieldset, form, label, legend, article, main, nav, ins {
     min-width: 0;
 }
+
+.project h1 {
+    margin-bottom: 0.2em;
+}
+
+.project .date {
+    margin-bottom: 1em;
+}
