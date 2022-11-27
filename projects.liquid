@@ -2,16 +2,43 @@ layout: default.liquid
 ---
 <div class="content">
     <div class="project">
+        <h1>tomlz</h1>
+        <img src="/static/pics/projects/tomlz.png" width="100%">
+        <p>
+            tomlz is a Zig package for parsing TOML files - a commonly used format for configuration files. My goal was
+            to have it be the most well tested Zig TOML library so I wrote my own unit tests, example files I wanted to
+            be able to parse and found some <a href="https://github.com/BurntSushi/toml-test">standard-ish tests</a>.
+        </p>
+        
+        <p>
+            To make sure that the package was able to be used on untrusted input I also ran a fuzzer on it. Fuzzing
+            support is a bit hit and miss in Zig but I managed to get
+            <a href="https://github.com/AFLplusplus/AFLplusplus">AFL++</a> working. It found a few crashes which I fixed
+            up.
+        </p>
+
+        <p>
+            It is available <a href="https://github.com/mattyhall/tomlz">on Github</a>
+        </p>
+
+        <p>
+            <b>Technologies/skills used:</b> Zig, unit testing, integration testing, AFL++ fuzzing
+        </p>
+    </div>
+
+    <div class="rule"></div>
+    
+    <div class="project">
         <h1>rs-tiled</h1>
         <img src="/static/pics/projects/rstiled.png" width="100%">
         <p>
             rs-tiled is a Rust crate that reads in maps created using the
             <a href="http://www.mapeditor.org/">Tiled Map Editor</a>. It can then be used in games (such as the
-            one above). I continute to maintain this crate and accept contributions from other developers.
+            one above). I have passed maintenance of this project on to members of the mapeditor organisation 
         </p>
 
         <p>
-            It is available <a href="https://github.com/mattyhall/rs-tiled">on Github</a>
+            It is available <a href="https://github.com/mapeditor/rs-tiled">on Github</a>
         </p>
 
         <p>
